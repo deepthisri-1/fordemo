@@ -9,6 +9,7 @@ public class mass {
                 Messaging.SingleEmailMessage singleMail = new Messaging.SingleEmailMessage();
                   List<String> sendTo = new List<String>();
                   sendTo.add('putluruvishnu@gmail.com');
+                  sendTo.add('deepthisrideep@gmail.com');
                   singlemail.setToAddresses(sendTo);
                 singleMail.setTemplateId(et.Id);
                 singleMail.setSaveAsActivity(false);
